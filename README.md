@@ -1,6 +1,8 @@
-Squad Maker Challenge
+#Squad Maker Challenge
 
 The challenge is to create an application that separates team members.
+
+##Overview
 
 Each team member has the same set of six skills and a randomly generated rating (up to 100) assigned for that particular skill. 
 
