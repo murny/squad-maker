@@ -1,0 +1,42 @@
+{
+teamMembers: [
+  '{{repeat(40)}}',
+  {
+    _id: '{{objectId()}}',
+    firstName: '{{firstName()}}',
+    lastName: '{{surname()}}',
+    skills: [
+      {
+        name: 'Programming',
+        classification: 'T',
+        rating: '{{integer(20, 100)}}'
+      },
+      {
+        name: 'Application Design',
+        classification: 'T',
+        rating: '{{integer(20, 100)}}'
+      },
+      {
+        name: 'Domain Expertise',
+        classification: 'F',
+        rating: '{{integer(20, 100)}}'
+      },
+      {
+        name: 'UX',
+        classification: 'F',
+        rating: '{{integer(20, 100)}}'
+      },
+      {
+        name: 'Communication',
+        classification: 'G',
+        rating: '{{integer(20, 100)}}'
+      },
+      {
+        name: 'Time Management',
+        classification: 'G',
+        rating: '{{integer(20, 100)}}'
+      }
+    ]
+  }
+]
+}
