@@ -1,49 +1,45 @@
 <h1>Squad Maker Challenge</h1>
 
-The challenge is to create an application that separates team members into squads.
+<p>The challenge is to create an application that creates squads of equally matched players.</p>
 
 <h2>Overview</h2>
 
-Each team member has the same set of six skills and a randomly generated rating (up to 100) assigned for that particular skill. 
-
-Each skill is classified as being either a technical skill (T), a functional skill (F), or a general skill (G).
-
-The skills are:
+<p>40 hockey players have signed up for shinny tournament. Each hockey player has been assigned a rating for three different skils:
 <ul>
-	<li>Technical:</li>
-	<ul>
-		<li>Programming</li>
-		<li>Application Design</li>
-	</ul>
-	<li>Functional:</li>
-		<ul>
-			<li>Domain Expertise</li>
-			<li>UX</li>
-	</ul>
-	<li>General:</li>
-	<ul>
-		<li>Communication</li>
-		<li>Time Management</li>
-	</ul>
+	<li>Skating</li>
+		<li>Shooting</li>
+		<li>Checking</li>
 </ul>
+</p>
 
-The teamMembers.json file has sample data for the first 40 team members to be separated into squads.
-
-The rules are:
+<p>You have been tasked with creating the squads for the tournamet according to the following rules:<p>
 <ul>
 	<li>each squad must be of equal size</li>
-<li>each squad must be as closely balance as possible with respect to technical, functional and general skills</li>
-	<li>the default number of squads is 5</li>
-	<li>any remaining team members not assigned to a squad will be placed on the "bench"</li>
+	<li>each squad must be as closely balance as possible in each individual skill</li>
+	<li>any players that cannot be assigned to a squad will be placed on the "bench"</li>
 </ul>
 
-Build a web application that consumes data from an API endpoint that supplies the team member details (use the teamMember.json file as mock data). 
+<p>
+	Player data will be pull from an external data source. Another person is responsible for building that component. In the meantime, they have provided you with sample data in the players.json file. 
+</p>
 
-The web app will intially divide the team members into squads per the rules above. Each squad wll display the team members and the technical, functional and general skill rating for the squad.
-
-The web app will have a form that allows new team members to be added. The form will accept a first name, last name and a skill rating up to and including 100 for each of the six skills. As team members are added, the squads will be rebalanced. Any team member not placed in a squad can go on the "bench". Display the bench in the same manner as the squads. 
-
-The web app will also allow the number of squads to be adjusted from 5 to any desired number. When this is changed, the squads are automatically rebalanced. 
+<p>
+	Build a web application as follows:
+	<ul>
+		<li>when first accessing the app, all players will be shown as being on the bench</li>
+		<li>there is a control that asks how many squads to create</li>
+		<li>there is a button that, when clicked, will generate the number of squads requested by following the rules above</li>
+		<li>for each squad that is created (including one bench squad), show the following details for each player on the squad</li>
+			<ul>
+				<li>Full Player Name</li>
+				<li>Skating Rating</li>
+				<li>Shooting Rating</li>
+				<li>Checking Rating</li>
+			</ul>
+		<li>for each squad, display the average skating rating, average shooting rating and average checking rating for the squad</li>
+		</ul>
+	</p>
+ 
 
 
 
