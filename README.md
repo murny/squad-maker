@@ -1,6 +1,6 @@
 <h1>Squad Maker Challenge</h1>
 
-The challenge is to create an application that separates team members.
+The challenge is to create an application that separates team members into squads.
 
 <h2>Overview</h2>
 
@@ -20,7 +20,7 @@ The skills are:
 			<li>Domain Expertise</li>
 			<li>UX</li>
 	</ul>
-	<li>General:<li>
+	<li>General:</li>
 	<ul>
 		<li>Communication</li>
 		<li>Time Management</li>
