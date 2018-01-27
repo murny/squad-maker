@@ -31,22 +31,24 @@
 		<li>there is a control that allows the user to enter the number of desired squads</li>
 		<li>there is a button that, when clicked, will generate the desired number of squads</li>
 		<li>there is a button that, when clicked, will reset the application and put all of the players back on the waiting list</li>
-		<li>for each squad that is created, display the following in a nicely formatted way:</li>
+		<li>for each squad that is created, display the following:</li>
+		<ul>
+			<li>Details For Each Player</li>
 			<ul>
-				<li>Details For Each Player</li>
-				<ul>
-					<li>Full Player Name</li>
-					<li>Skating Rating</li>
-					<li>Shooting Rating</li>
-					<li>Checking Rating</li>
-				</ul>
-				<li>Team Shooting Average</li>
-				<li>Team Skating Average</li>
-				<li>Team Checking Average</li>
+				<li>Full Player Name</li>
+				<li>Skating Rating</li>
+				<li>Shooting Rating</li>
+				<li>Checking Rating</li>
 			</ul>
+			<li>Team Shooting Average</li>
+			<li>Team Skating Average</li>
+			<li>Team Checking Average</li>
 		</ul>
-	</p>
- 
+	</ul>
+</p>
+<p>
+	The organizer has left the look and feel of the application and the technologies to use in your capable hands. 
+</p>
 
 
 
