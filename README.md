@@ -4,20 +4,20 @@
 
 <h2>Overview</h2>
 
-<p>A number of hockey players have signed up for hockey tournament (shinny). Each hockey player has been assigned a rating for three different skills:
+<p>A number of hockey players have signed up for a hockey tournament (shinny). Each hockey player has been assigned a rating for three different skills:
 <ul>
 	<li>Skating</li>
-		<li>Shooting</li>
-		<li>Checking</li>
+	<li>Shooting</li>
+	<li>Checking</li>
 </ul>
 </p>
 
-<p>The tournament organizer has tasked you with creating the squads for the tournamet. You are free to do this however you like, with the following rules in mind:<p>
+<p>The tournament organizer has tasked you with creating the squads for the tournamet. You are free to do this however you like, but the organizer has asked you to keep the following points in mind:<p>
 <ol>
-	<li>each squad must have the same number of players</li>
-	<li>each squad must be as closely balance as possible in each of the three skills</li>
-	<li>the organizer doesn't know how many squads there will be yet</li>
-	<li>any players that cannot be assigned to a squad will be placed on the waiting list</li>
+	<li>Each squad must have the same number of players</li>
+	<li>Each squad must be as closely balance as possible in each of the three skills</li>
+	<li>The organizer doesn't know how many squads there will be yet</li>
+	<li>Any players that cannot be assigned to a squad will be placed on the waiting list</li>
 </ol>
 
 <p>
@@ -33,7 +33,7 @@
 		<li>there is a button that, when clicked, will reset the application and put all of the players back on the waiting list</li>
 		<li>for each squad that is created, display the following in a nicely formatted way:</li>
 			<ul>
-				<li>Player Details</li>
+				<li>Details For Each Player</li>
 				<ul>
 					<li>Full Player Name</li>
 					<li>Skating Rating</li>
