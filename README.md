@@ -6,7 +6,7 @@ The challenge is to create an application that separates team members.
 
 Each team member has the same set of six skills and a randomly generated rating (up to 100) assigned for that particular skill. 
 
-Each skill is classified as being either a technical skill (T), a functional skill (T), or a general skill (G).
+Each skill is classified as being either a technical skill (T), a functional skill (F), or a general skill (G).
 
 The skills are:
 <ul>
