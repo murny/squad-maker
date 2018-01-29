@@ -17,7 +17,7 @@
 	<li>Each squad must have the same number of players</li>
 	<li>Each squad must be as closely balance as possible in each of the three skills</li>
 	<li>The organizer doesn't know how many squads there will be yet</li>
-	<li>Any players that cannot be assigned to a squad will be placed on the waiting list</li>
+	<li>Any players that cannot be assigned to a squad will be placed on the waiting list (ex. if there are 40 players and the organizer wants 6 squads, there will be 4 players on the waitlist)</li>
 </ol>
 
 <p>
@@ -27,9 +27,9 @@
 <p>
 	You have decided to build a web application for this task. The organizer likes this approach and you discuss the following features: 
 	<ul>
-		<li>by default, the home page will show all player as being on the waiting list</li>
+		<li>by default, the home page will show all players as being on the waiting list</li>
 		<li>there is a control that allows the user to enter the number of desired squads</li>
-		<li>there is a button that, when clicked, will generate the desired number of squads</li>
+		<li>there is a button that, when clicked, will generate the desired number of squads and put the remainder in the waiting list</li>
 		<li>there is a button that, when clicked, will reset the application and put all of the players back on the waiting list</li>
 		<li>for each squad that is created, display the following:</li>
 		<ul>
