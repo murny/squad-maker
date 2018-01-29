@@ -15,14 +15,14 @@ The organizer has tasked you with creating the squads for the tournament. You ar
   * Any players that cannot be assigned to a squad will be placed on the waiting list (For example, if there are 40 players and the organizer wants 6 squads, there will be 4 players on the waitlist)
 * Each squad must be as closely balance as possible in each of the three skills
 
-The player data will be made availabe via a REST API from an external data provider. Unfortunately, the API is not yet availabe. For now, the provider has offered you sample player data in the players.json file. The format of the data in the file will match the format of the REST response when it is available.  
+The player data will be made availabe via a REST API from the registration team. Unfortunately, the API is not yet availabe. For now, the registration team has offered you sample player data in the players.json file. The format of the data in the file will match the format of the REST response when it is available.  
 
 You have decided to build a web application for this task. The organizer likes this approach and you discuss the following features: 
 * By default, the home page will show all players as being on the waiting list
-* There is a control that allows the user to enter the number of desired squads
-* There is a button that, when clicked, will generate the desired number of squads and put the remainder in the waiting list
-* There is a button that, when clicked, will reset the application and put all of the players back on the waiting list
-* for each squad that is created, display the following:
+* There will be a control that allows the user to enter the number of desired squads
+* There will be a button that, when clicked, will generate the desired number of squads and put the remainder in the waiting list
+* There will be a button that, when clicked, will reset the application and put all of the players back on the waiting list
+* The generated squads will display the following:
   * Details For Each Player
     * Full Player Name
     * Skating Rating
@@ -31,10 +31,16 @@ You have decided to build a web application for this task. The organizer likes t
   * Squad Shooting Average
   * Squad Skating Average
   * Squad Checking Average
+* The waiting list will display the following:
+  * Details For Each Player
+    * Full Player Name
+    * Skating Rating
+    * Shooting Rating
+    * Checking Rating 
   
 The organizer has left the look and feel of the application and the technologies to use in your capable hands. 
 
-# Example Output
+## Example Output
 
 The API returns the following player data, which is then displayed on the home page. 
 
