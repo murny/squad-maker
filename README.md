@@ -40,7 +40,7 @@ You have decided to build a small web application for this task. The organizer l
   
 The organizer has left the look and feel of the application and the technologies to use in your capable hands.
 
-*Good luck and have fun!*
+*We are not specifically looking to see if you are able to write an algorithm to find the most optimal solution. We are looking for a thoughtful approach at solving the problem and code that would reflect your professionalism. Good luck and have fun!*
 
 ## Example Output
 
