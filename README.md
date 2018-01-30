@@ -15,7 +15,15 @@ The organizer has tasked you with creating the squads for the tournament. You ar
   * Any players that cannot be assigned to a squad will be placed on a waiting list (ex. if there are 40 players and the organizer wants 6 squads, there will be 4 players on the waiting list)
 * Each squad must closely balance in each of the three skills
 
-The player data will be made availabe via a REST API from the registration team. Unfortunately, the API is not yet availabe. For now, the registration team has offered you sample player data in the [players.json](./players.json) file. The format of the data in the file will match the format of the REST response when it is available.  
+### Player Data 
+
+The player data will be made availabe via a REST API from the registration team. Unfortunately, their API is not yet availabe. For now, the registration team has offered you sample player data in the [players.json](./players.json) file. The format of the data in the file will match the format of the REST response when it is available, at which point you will need to be able to quickly integrate it.  
+
+To generate additional random data for the JSON reponse, use the content from the file [playerGenerator.txt](./playerGenerator.txt) and run in through the JSON generator at the following website https://www.json-generator.com
+
+You can change the value in `repeat(40)` to generate data for any number of players.
+
+### UI Features
 
 You have decided to build a small web application for this task. The organizer likes this approach and you discuss the following features: 
 * By default, the home page will show all players as being on the waiting list
@@ -39,8 +47,6 @@ You have decided to build a small web application for this task. The organizer l
     * Checking Rating 
   
 The organizer has left the look and feel of the application and the technologies to use in your capable hands.
-
-*We are not specifically looking to see if you are able to write an algorithm to find the most optimal solution. We are looking for a thoughtful approach at solving the problem and code that would reflect your professionalism. Good luck and have fun!*
 
 ## Example Output
 
@@ -79,11 +85,10 @@ The user selects 2 squads and clicks the button to generate the squads. The foll
 | Roy Talbot | 60 | 85 | 20 | 
 | Jennifer Wu | 94 | 55 | 100 | 
 | **Average** | 77 | 70 | 60 |
+ 
+## Final Thoughts
 
-## Generating Random Data
+*We are not specifically looking to see if you are able to write an algorithm to find the most optimal solution. We are looking for a thoughtful approach at solving the problem and code that would reflect your professionalism.*
 
-To generate random data for the JSON reponse, use the content from the file [playerGenerator.txt](./playerGenerator.txt) and run in through the JSON generator at the following website https://www.json-generator.com
-
-You can change the value in `repeat(40)` to generate data for any number of players.  
-
+*Good luck and have fun!*
 
