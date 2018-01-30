@@ -56,7 +56,7 @@ The API returns the following player data, which is then displayed on the home p
 | Jill White | 70 | 90 | 60 |
 | Jennifer Wu | 94 | 55 | 100 | 
  
-The user selects 2 squads and clicks the button to generate the squads. The following squads and a waitlist is formed from your algorithm: 
+The user selects 2 squads and clicks the button to generate the squads. The following squads and a waiting list is formed from your algorithm: 
 
 **Waiting List**
 
@@ -80,5 +80,10 @@ The user selects 2 squads and clicks the button to generate the squads. The foll
 | Jennifer Wu | 94 | 55 | 100 | 
 | **Average** | 77 | 70 | 60 |
 
+## Generating Random Data
+
+To generate random data for the JSON reponse, use the content from the file [playerGenerator.txt](./playerGenerator.txt) and run in through the JSON generator at the following website https://www.json-generator.com
+
+You can change the value in `repeat(40)` to generate data for any number of players.  
 
 
