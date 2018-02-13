@@ -1,6 +1,12 @@
 # Squad Maker Challenge
 
-The challenge is to build an application that creates equally matched hockey squads from a collection of players.
+The challenge is to build an application that creates equally matched hockey squads from a collection of players. 
+
+Craft a solution that: 
+* you would consider to be representative of your level of professionalism
+* you would be comfortable handing off to someone else to maintain
+* uses a technology that you are comfortable with
+* notes any assumptions that you make
 
 ## Problem Description
 
