@@ -62,6 +62,8 @@ The organizer has left the look and feel of the application and the technologies
 
 The API returns the following player data, which is then displayed on the home page.
 
+_This is example output to help you understand the problem only. Make yours look pretty!_
+
 **Waiting List**
 
 | Player      | Skating | Shooting | Checking |
@@ -72,7 +74,7 @@ The API returns the following player data, which is then displayed on the home p
 | Jill White  |   70    |    90    |    60    |
 | Jennifer Wu |   94    |    55    |   100    |
 
-The user selects 2 squads and clicks the button to generate the squads. The following squads and a waiting list is formed from your algorithm:
+The user selects 2 squads and clicks the button to generate the squads. The following squads and a waiting list is formed from your algorithm: 
 
 **Waiting List**
 
@@ -102,6 +104,6 @@ Submissions are to be made via a public github repo (or similar service). Please
 
 ## Final Thoughts
 
-_We are not specifically looking to see if you are able to write an algorithm to find the most optimal solution. We are looking for a thoughtful approach at solving the problem and code that would reflect your professionalism._
+_We are not specifically looking to see if you are able to write an algorithm to find the most optimal solution. We are looking for a thoughtful approach at solving the problem and that you write a reasonable algorithm that implements the approach._
 
 _Good luck and have fun!_
