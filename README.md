@@ -1,7 +1,7 @@
 # README
 
 ## What's Squad Maker?
- - This is a solution for the Squad Maker Challenge. See [CHALLENGE.md](CHALLENGE.MD) for more details.
+ - This is a solution for the Squad Maker Challenge. See [CHALLENGE.md](CHALLENGE.md) for more details.
 
 ## Dependencies
  - Ruby v2.3.3
