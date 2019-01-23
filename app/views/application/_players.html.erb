@@ -1,0 +1,38 @@
+<div class="table-responsive">
+  <table class="table table-hover table-striped table-borderless">
+    <thead>
+      <tr>
+        <th scope="col">Player</th>
+        <th scope="col" class="text-right">Skating</th>
+        <th scope="col" class="text-right">Checking</th>
+        <th scope="col" class="text-right">Shooting</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% if players.present? %>
+        <% players.each do |player| %>
+          <tr>
+            <td><%= player.full_name %></td>
+            <td class="text-right"><%= player.checking %></td>
+            <td class="text-right"><%= player.skating %></td>
+            <td class="text-right"><%= player.shooting %></td>
+          </tr>
+        <% end %>
+      <% else %>
+        <tr>
+          <td colspan="4" class="text-center">No players found</td>
+        </tr>
+      <% end %>
+    </tbody>
+    <% if defined?(squad) %>
+      <tfoot>
+        <tr class="font-weight-bold">
+          <td >Average</td>
+          <td class="text-right"><%= squad.average_checking %></td>
+          <td class="text-right"><%= squad.average_skating %></td>
+          <td class="text-right"><%= squad.average_shooting %></td>
+        </tr>
+      </tfoot>
+    <% end %>
+  </table>
+</div>

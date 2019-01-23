@@ -1,0 +1,62 @@
+<div class="container">
+  <div class="row my-5">
+    <div class="col-md-12">
+      <div class="d-flex align-items-center justify-content-between">
+        <h1 class="display-4">Generate Squads</h1>
+
+        <%= link_to players_path,
+                    method: :post,
+                    class: 'ml-md-2 mt-2 mt-md-0 btn btn-outline-primary',
+                    data: { confirm: 'This will reload all players from the API. Are you sure?'} do %>
+          <%= icon('fas', 'sync', class: 'mr-1') %>
+          Reload Players from API
+        <% end %>
+      </div>
+      <%= form_with url: root_path, method: :get, local: true do |form| %>
+        <div class="form-group">
+          <%= form.label :number_of_squads, 'Number of Squads' %>
+          <%= form.number_field :number_of_squads,
+              value: params[:number_of_squads],
+              class: 'form-control',
+              placeholder: 'Enter number of squads' %>
+        </div>
+        <%= form.submit  'Generate', class: 'btn btn-primary' %>
+        <%= link_to root_path, class: 'btn btn-outline-secondary' do %>
+          <%= icon('fas', 'undo', class: 'mr-1') %>
+          Reset
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+  <div class="row mb-3">
+    <div class="col-12">
+      <h2 class="h1">Squads</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card mb-3">
+        <div class="card-header text-center">
+          <h3 class="mb-0">Waiting List</h3>
+        </div>
+        <div class="card-body">
+          <%= render partial: 'players', locals: { players: @players } %>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <% if @squads.present? %>
+        <% @squads.each.with_index(1) do |squad, index| %>
+          <div class="card mb-3">
+            <div class="card-header text-center">
+              <h3 class="mb-0"><%= "Squad ##{index}" %></h3>
+            </div>
+            <div class="card-body">
+              <%= render partial: 'players', locals: { players: squad.players, squad: squad } %>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
