@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: 'Cristina'
+  last_name: 'Moses'
+  shooting: 26
+  skating: 80
+  checking: 65
+
+two:
+  first_name: 'Brown'
+  last_name: 'Nash'
+  shooting: 30
+  skating: 58
+  checking: 76
+
+three:
+  first_name: 'Angelina'
+  last_name: 'Knight'
+  shooting: 87
+  skating: 78
+  checking: 84
+
+four:
+  first_name: 'Frank'
+  last_name: 'Simon'
+  shooting: 53
+  skating: 43
+  checking: 85
